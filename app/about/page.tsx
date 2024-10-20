@@ -39,7 +39,7 @@ const AboutUs: React.FC = () => {
 
         {/* Service Card 3 */}
         <div className="service-card">
-          <img src="/path/to/your/image3.jpg" alt="Custom Solutions" className="h-3/5 w-full object-cover mb-4 rounded-lg" />
+          <Image src="/path/to/your/image3.jpg" alt="Custom Solutions" className="h-3/5 w-full object-cover mb-4 rounded-lg" />
           <h3 className="text-xl font-semibold mb-2">Custom Solutions</h3>
           {/* <p className="text-gray-600"> */}
           {/*   Developing tailor-made solutions to meet the unique challenges of your business. */}
@@ -54,21 +54,21 @@ const AboutUs: React.FC = () => {
           {/* Testimonial 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-gray-600 mb-4">
-              "Tenazity transformed our online presence! Their website building service exceeded our expectations."
+              &quot;Tenazity transformed our online presence! Their website building service exceeded our expectations.&quot;
             </p>
             <p className="font-semibold">— Sarah L., Small Business Owner</p>
           </div>
           {/* Testimonial 2 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-gray-600 mb-4">
-              "The web application they developed for us is fantastic. It streamlined our operations significantly!"
+              &quot;The web application they developed for us is fantastic. It streamlined our operations significantly!&quot;
             </p>
             <p className="font-semibold">— Mark T., Startup Founder</p>
           </div>
           {/* Testimonial 3 */}
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-gray-600 mb-4">
-              "Amazing service! They listened to our needs and delivered exactly what we were looking for."
+              &quot;Amazing service! They listened to our needs and delivered exactly what we were looking for.&quot;
             </p>
             <p className="font-semibold">— Lisa R., Entrepreneur</p>
           </div>
