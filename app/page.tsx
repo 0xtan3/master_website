@@ -2,10 +2,10 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import Navbar from './components/navbar.tsx';
-import Home from './home/page.tsx';
-import AboutUs from './about/page.tsx';
-import ContactSection from './contact/page.tsx';
+import Navbar from './components/navbar';
+import Home from './home/page';
+import AboutUs from './about/page';
+import ContactSection from './contact/page';
 
 const App: React.FC = () => {
   useEffect(() => {
